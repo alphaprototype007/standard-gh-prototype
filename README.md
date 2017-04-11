@@ -1,10 +1,4 @@
-# Webhook-and-API.AI-Sample - Echo your text
-
-A very simple step by step, 11:06 minutes demo (see video at the end of read me) of implementing an echo service using webhook. Whatever user asks Google Assistant will be sent to your API and then same text will be sent back as speech text.
-
-This simple app will help you understand
-- How to write an API in node
-- How to integrate your node JS app with API.AI as webhook
+# Special BI Agent - Echo your text
 
 # Deploy to:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -13,10 +7,12 @@ This simple app will help you understand
 - Push this app to Heroku
 - Test the API https://standard-gh-prototype.herokuapp.com/echo - use www.hurl.it to test it
 
-Open API.AI portal - https://api.ai
-- Create an account and login
+# Functions
 
-# Video
-Watch this video to learn the steps to create sample application.
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/6TQdwzztltc/0.jpg)](https://www.youtube.com/watch?v=6TQdwzztltc)
+1.) Capability to list headlines (latest, from a specific date)
+2.) Capability to Search for a specific topic
+3.) Capability to set results limit for headlines and search results
+4.) Capability to list information about the company
+5.) Capability to read a specific article
+6.) Capability to return information about a specific company's stock
+7.) Ability to echo text
